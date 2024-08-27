@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cifrador de Texto</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/jpg" href="images/favicon.ico">
+    </head>
+
+    <body>
+        <!-- main conteiner (Contenido principal)-->
+        <div class="container">
+            <header class="cabecera">
+                <figure class="vector">                            
+                    <img class="vector-img" src="images/logo.png" alt="Logo AluraLatam" height="40px"/>
+                </figure>
+                <h1 class="titulo">Cifrador de texto</h1>
+            </header>
+
+            <section class="cifrador">
+                <div class="area">
+                    
+                    <textarea name="" class="area-box1" spellcheck="false" placeholder="Ingrese texto aquí"></textarea>
+                    <label type="texto" class="advertencia"><strong>&#9888; Sólo letras minúsculas y sin acento</strong></label> 
+                    <button class="boton1">Encriptar</button>
+                    <button class="boton2">Desencriptar</button>
+                   
+                </div>
+    
+                <div class="respuesta">
+                    <textarea name="" class="area-box2" readonly="readonly">Ningún texto encontrado</textarea>
+                    <button class="botonCopiar">Copiar</button>                    
+                </div>
+            </section>
+
+            <footer class="rodapie">
+                <p class="rodapie-texto">Desarrollado por Edwin Rojas Suárez - 2024</p>
+                <p class="rodapie-texto">&copy Copyright - Todos los derechos reservados</p>
+            </footer>
+        </div>
+
+        <script src="encriptar.js"></script>
+
+    </body>
+</html>
